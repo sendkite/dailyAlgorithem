@@ -16,6 +16,7 @@
       a, b = map(int, input().split())
       ```
   + 1216: 백준 2588- 곱셈
+    + 출처 : https://www.acmicpc.net/problem/2588
     + 풀이
       + 세자리수 2개 입력 
       + 두번째 입력값 100의 자리, 10의 자리, 1의 자리 분리
