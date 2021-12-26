@@ -39,6 +39,7 @@
     + 기록하고 싶은 것
       + 간단한 연산인데 ()를 쳐주지 않아서 틀림
       + ```python
+        year = int(input())
         if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
               print(1)
         else:
