@@ -44,4 +44,18 @@
         else:
               print(0)
         ```
-
+  + 1226: 백준 2739 구구단
+    + 출처 : https://www.acmicpc.net/problem/2739
+    + 풀이
+      + for 반복문 사용
+    * 소요시간 : 5분
+    * 기록하고 싶은 것
+      * 간만에 파이썬을 사용했더니 for 반복문이 기억이 나지 않음.
+      * range() 함수를 사용하면 리스트 같은 객체를 만들어 사용할 수 있다.
+        ``` python
+        num = int(input())
+        for i in range(1, 10):
+        print(num, "*", i, "=", num * i)
+        i = i + 1
+        ```
+   
